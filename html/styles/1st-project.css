@@ -40,7 +40,7 @@
 }
 .text-1{
     font-size: 55px;
-    font font-weight: bold;
+    
 }
 .text-2{
     font-size: 20px;
@@ -56,4 +56,64 @@
 }
 .logo-photo{
     width: 200px;
+}
+.about-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row-reverse;
+    padding: 10px;
+}
+.about-para{
+    font-size: 20px;
+    padding: 5px;
+}
+.about-title{
+    text-align: center;
+    padding-top: 20px;
+    font-size: 75px;
+}
+.icon{
+    width: 70px;
+}
+.box{
+    width: 230px;
+    height: 280px;
+    background-color: black;
+    box-shadow: 4px 4px 15px gray;
+    text-align: center;
+    padding: 15px;
+    color: white;
+}
+.box-btn{
+    background-color: gray;
+}
+.box-title{
+    padding: 10px;
+}
+.box-description{
+    padding: 10px;
+}
+.service-container{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+.title{
+    color: white;
+}
+.third{
+    background-color:rgba(0, 0, 0, 0.91)
+}
+.second{
+    background-color: white;
+}
+.fourth{
+    background-color: black;
+    color: white;
+}
+.parent-div{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
 }
