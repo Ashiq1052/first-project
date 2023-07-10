@@ -3,5 +3,24 @@
     padding: 0px;
 }
 .menu-container{
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.825);
+    height: 100px;
+    color: white;
+    list-style: none;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.menus{
+    display: flex;
+}
+.item{
+    margin-right: 10px;
+    padding-right: 7px;
+    font-size: 18px;
+}
+.item:hover{
+    color: blue;
+    cursor: pointer;
 }
